@@ -320,8 +320,8 @@ class MainWindow(QtWidgets.QMainWindow):
                 "Qt-for-Python (PySide2) Graphics View Framework is used as "
                 "a starting point for GUIs with a scene containing items"
                 "and a specific, modifiable view on them (zoom, pan, etc.).<br><br>"
-                "License: GPL<br><br>"
-                "Copyricght (C) 2018 Andreas Ennemoser.")
+                "License: " + __license__ + " <br><br>"
+                "Copyright (C) 2018 Andreas Ennemoser.")
 
 
 def main():
